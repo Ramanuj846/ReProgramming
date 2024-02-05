@@ -1,0 +1,21 @@
+<!-- product-form.component.html -->
+<form [formGroup]="productForm">
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Description" formControlName="description">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Price" formControlName="price">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Quantity" formControlName="quantity">
+    </mat-form-field>
+  
+    <div class="buttons">
+      <button mat-button color="primary" (click)="save()" [disabled]="productForm.invalid">Save</button>
+      <button mat-button (click)="close()">Cancel</button>
+    </div>
+  </form>
+  

@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Product A",
+      "description": "Description for Product A",
+      "price": 1500,
+      "quantity": 25
+    },
+    {
+      "id": "2",
+      "name": "Product B",
+      "description": "Description for Product B",
+      "price": 2000,
+      "quantity": 15
+    },
+    {
+      "id": "3",
+      "name": "Product C",
+      "description": "Description for Product C",
+      "price": 1200,
+      "quantity": 30
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
